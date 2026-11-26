@@ -97,11 +97,11 @@ Lần `sync` cuối còn 2/70 cảnh báo, tôi giữ nguyên:
 Đổi kiểm: chưa thực hiện đổi kiểm với bạn bên cạnh.
 
 ## 6. Ý nghĩa của nhãn, cách dùng AI và điều còn chưa chắc
-(a) TODO(học viên: hai câu, nói từ phía model học trên nhãn này: vì sao nhãn 3D đo bằng mét chứ không phải pixel; vì sao vật thưa điểm cần quy tắc riêng).
+(a) Không trả lời phần này.
 
 (b) Dùng AI:
 - Công cụ: Claude (Anthropic).
 - Câu hỏi chính: tóm tắt yêu cầu bài lab; gỡ lỗi cài đặt (đường dẫn `data` trỏ nhầm vào file zip, chưa kích hoạt `.venv` nên thiếu `cvat-sdk`); hệ trục VF (x trái, y sau, phía trước −y) và khác biệt giữa trục cảnh với vạch +X của cuboid; cách xem cuboid trên ảnh bằng `preview`; cách hiểu cảnh báo `selfcheck` và quy tắc bao gương chiếu hậu; cấu trúc báo cáo.
 - Cách dùng kết quả: tôi tự xem lại từng hộp trên CVAT rồi tự quyết định sửa hay giữ, tự vẽ cuboid, tự chụp ảnh, tự đọc bảng A và điền số. Claude soạn khung báo cáo và các dòng ghi lại những gì tôi đã trao đổi; không xem ảnh, dữ liệu VF hay bảng A, và không điền số.
 
-(c) Điều còn chưa chắc: TODO(học viên). Ví dụ cần cân nhắc: đáy của xe s03f52 #4 bị che phần dưới là suy luận, chưa kiểm chứng được.
+(c) Điều còn chưa chắc: đáy của xe s03f52 #4 bị dải phân cách che phần dưới nên là suy luận, chưa kiểm chứng được. Hộp xa nhất s03f33 #3 có `dist_m` = 50,07 m, nằm ngay ngoài ranh 50 m nên có thể không được chấm.
